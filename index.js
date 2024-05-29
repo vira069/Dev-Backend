@@ -53,7 +53,7 @@ app.get('/login',(req, res) =>{
 })
 
 app.get('/github',(req, res) =>{
-  res.jason(githubData)
+  res.json(githubData)
 })
 
 app.listen(process.env.PORT, () => {
